@@ -9,7 +9,7 @@ spring:
           uri: https://github.com/DDMonzonUrrutia/config-data-server.git
           searchPaths:
           username: ${GIT_USERNAME}
-          password: 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
+          password: ${GIT_TOKEN}
           default-label: "main"
   security:
     user:
